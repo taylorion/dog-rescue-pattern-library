@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #4a634d;
+  --color-primary-light: #709675;
+  --color-accent: #afd1b3;
+
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Sansita", sans-serif;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+}
