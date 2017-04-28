@@ -1,0 +1,1 @@
+The footer was designed to reflect a similar style of the navigation bar to ensure consistency. The social media icons were designed to change their hover state to the colours of their respective apps / websites. The colour turns from the website's primary colour to a soft gradient of black as it works its way down.

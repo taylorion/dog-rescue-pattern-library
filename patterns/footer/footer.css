@@ -1,0 +1,64 @@
+html {
+  font-family: sansita, sans-serif;
+  color: #fff;
+}
+
+a {
+  text-decoration: none !important;
+  border: 0;
+}
+
+.social-media-icons div {
+  height: 50px;
+  width: 50px;
+  margin: 0px 50px 0px 50px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-color: #709675;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 100, 0, 0));
+}
+
+.text-center {
+  margin-bottom: 0;
+  padding-bottom: .5em;
+}
+
+#footnote {
+  margin-top: 5px;
+}
+
+#facebook {
+  background-image: url(../../images/facebook.svg);
+}
+
+#instagram {
+  background-image: url(../../images/insta.svg);
+}
+
+#snapchat {
+  background-image: url(../../images/snap.svg);
+}
+
+#twitter {
+  background-image: url(../../images/twitter.svg);
+}
+
+#facebook:hover {
+  background-image: url(../../images/facebook-hover.svg);
+}
+
+#instagram:hover {
+  background-image: url(../../images/insta-hover.svg);
+}
+
+#snapchat:hover {
+  background-image: url(../../images/snap-hover.svg);
+}
+
+#twitter:hover {
+  background-image: url(../../images/twitter-hover.svg);
+}

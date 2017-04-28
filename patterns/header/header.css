@@ -1,0 +1,196 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+  font-family: Sansita, sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #709675;
+  background-image: linear-gradient(to top, rgba(0, 100, 0, 0), rgba(0, 0, 0, .5));
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+h1 {
+  margin: 0 0 .5rem;
+  font-size: 1.38rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  line-height: 2.6em;
+}
+
+nav ul > li::before {
+  display: none;
+}
+
+nav li {
+  text-align: left;
+}
+
+nav a {
+  display: block;
+  padding: .5em .75em;
+  color: #fff;
+  text-decoration: none;
+  height: 100%;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+nav a:focus {
+  background-color: #333;
+  color: #fff;
+  outline: 0px;
+}
+
+.nav-open, .nav-close {
+  width: 1.5em;
+  height: 100%;
+}
+
+.nav-label {
+  width: 3em;
+  height: 3.7em;
+  padding: .5em 0;
+  display: none;
+}
+
+header img {
+  display: flex;
+  height: 3.5em;
+  width: 7em;
+  padding: .5em 0;
+}
+
+.nav-close {
+  display:none;
+}
+
+.nav-check:checked ~ header nav .nav-label .nav-close {
+  display: block;
+}
+
+.nav-check:checked ~ header nav .nav-label .nav-open {
+  display: none;
+}
+
+nav {
+  height:100%;
+}
+
+#nav-check {
+  width: 3em;
+  height: 3.7em;
+  padding: .5em 0;
+  position: absolute;
+  right: 0px;
+}
+
+@media only screen and (min-width:25em) {
+
+  nav li {
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+  }
+
+  .nav-label {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .nav-check:checked ~ header nav ul {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 10em;
+  }
+
+  .nav-check:checked ~ header nav ul li {
+    display: block;
+    height:44px;
+    width: 100%;
+    background: #4a634d;
+  }
+
+  .nav-check:checked ~ header nav ul li a {
+    line-height: 28px;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+  }
+
+  .nav-label {
+    display: none;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+  }
+
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
+
+  h1,
+  nav {
+    vertical-align: middle;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    margin-right: 1.5rem;
+  }
+
+  .nav-label {
+    display: none;
+  }
+
+}

@@ -1,0 +1,1 @@
+The form page was designed to focus on the the fillable elements of the page. Its purpose was to get straight to the point with questions that would reflect which dog would be a best fit for you based on your answers. 

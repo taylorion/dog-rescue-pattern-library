@@ -1,0 +1,1 @@
+The buttons make use of the websites primary and secondary colours. When hovered, they become a tint lighter, to contrast their regular state. The ghost button remains transparent when both static and hovered. 

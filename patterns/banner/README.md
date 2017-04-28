@@ -1,0 +1,1 @@
+The banner is what greets the users when they first load the website. It has to be friendly and the banner image does just that. The text is provided to give people a quick run down of what the website is about

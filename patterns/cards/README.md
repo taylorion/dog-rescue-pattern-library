@@ -1,0 +1,1 @@
+The cards were designed to show a large image of the dog as well as a brief summary of what the dog is like. While scaling, they resize to continue to show as much of the dog at each media query break. The text reflows with the card size as well.
