@@ -1,0 +1,1 @@
+The header (or navigation bar) uses the site's primary colour with a soft black gradient. This allows for website consistency. As the header is resized, the navigation elements switch to the hamburger icon which allows for a drop down menu.
